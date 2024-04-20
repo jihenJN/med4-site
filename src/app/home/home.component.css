@@ -1,0 +1,66 @@
+.section-home {
+  /* Set background image for section 1 */
+  background-image: url('/assets/home-background.png');
+  
+  /* Specify background properties */
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  /* Responsive height and width */
+  height: 50vh; /* 50% of the viewport height */
+  width: 100%; /* 100% of the container's width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center */
+  align-items: center; /* Horizontally center */
+  text-align: center; /* Center text inside */
+  border: 1px solid #CCCCCC; /* Gray border */
+  box-shadow: 0px 0px 10px 0px rgba(157, 151, 151, 0.5); /* Shadow effect */
+  padding: 20px; /* Optional padding */
+}
+.image-container {
+  display: inline-block; /* Ensures the container only takes up as much space as necessary */
+  width: 35px; /* Set width of the container */
+  height: 35px; /* Set height of the container */
+  border: 2px solid #787878; /* Gray border */
+  border-radius: 50%; /* Makes the frame a circle */
+  overflow: hidden; /* Hides any parts of the image outside the container */
+  
+}
+
+.image-container img {
+  display: block; /* Ensures the image fills the container */
+  width: 100%; /* Ensures the image fills the container */
+  height: auto; /* Maintains the aspect ratio of the image */
+ 
+}
+
+.section-partners {
+  
+
+  background-color: #EBEBEB;
+  height: 20vh; /* 50% of the viewport height */
+  width: 100%; /* 100% of the container's width */
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Vertically center */
+  align-items: center; /* Horizontally center */
+  text-align: center; /* Center text inside */
+  gap: 40px; /* Add space between flex items */
+}
+
+
+.partner-item {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontally center items */
+  text-align: center; /* Center text */
+  
+}
+
+.partner-item h6 {
+    margin-top: 20px; /* Add margin top for space between image and text */
+    font-size: small;
+    color: #787878;
+}
