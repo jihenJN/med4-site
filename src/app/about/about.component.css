@@ -50,3 +50,16 @@
     height: 150px; /* Adjust this value as needed */
   }
   
+  .section-why {
+  
+    background-color: #EBEBEB;
+    height: 80vh; /* 50% of the viewport height */
+    width: 100%; /* 100% of the container's width */
+    display: flex;
+    flex-direction: column;
+    justify-content:center; /* Vertically center */
+    align-items: center; /* Horizontally center */
+    text-align: center; /* Center text inside */
+    
+  }
+  

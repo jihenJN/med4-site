@@ -200,4 +200,9 @@
       visibility: visible;
     }
   
+    .card.custom-card {
+      background-color: lightblue !important; /* Change the background color */
+      border-color: navy !important; /* Change the border color */
+      color: navy !important; /* Change the font color */
+  }
   

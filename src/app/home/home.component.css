@@ -46,7 +46,7 @@
   justify-content: center; /* Vertically center */
   align-items: center; /* Horizontally center */
   text-align: center; /* Center text inside */
-  gap: 40px; /* Add space between flex items */
+  gap: 50px; /* Add space between flex items */
 }
 
 
