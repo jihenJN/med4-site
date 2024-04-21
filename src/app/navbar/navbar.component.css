@@ -6,8 +6,8 @@
     transition: all 0.5s;
     z-index: 997;
     height: 100px;
-    background-color: #fff;
-    opacity: 0.2;
+    background-color: #feffff;
+    background-color: rgba(255, 255, 255, 0.2); /* Use RGBA for background color */
     
     
   }
@@ -19,7 +19,7 @@
   }
   
   .header.sticked {
-    border-color: #fff;
+    border-color: #feffff;
     border-color: #eee;
   }
   
@@ -43,7 +43,7 @@
   .header .btn-book-a-table,
   .header .btn-book-a-table:focus {
     font-size: 14px;
-    color: #fff;
+    color: #feffff;
     background: var(--color-primary);
     padding: 8px 20px;
     margin-left: 30px;
@@ -53,7 +53,7 @@
   
   .header .btn-book-a-table:hover,
   .header .btn-book-a-table:focus:hover {
-    color: #fff;
+    color: #feffff;
     background: rgba(206, 18, 18, 0.8);
   }
   
@@ -103,7 +103,7 @@
       font-family: var(--font-secondary);
       font-size: 16px;
       font-weight: 600;
-      color: #fff;
+      color:#feffff;
       white-space: nowrap;
       transition: 0.3s;
       position: relative;
@@ -142,8 +142,8 @@
     .navbar .active,
     .navbar .active:focus,
     .navbar li:hover>a {
-      color: #0a5291;
       text-decoration:underline;
+      text-decoration-color:#0e61aa;
       text-underline-offset: 10px; /* Adjust the offset as needed */
       text-decoration-thickness: 3px; /* Adjust the thickness as needed */
     }
@@ -158,7 +158,7 @@
       z-index: 99;
       opacity: 0;
       visibility: hidden;
-      background: #fff;
+      background: #feffff;
       box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
       transition: 0.3s;
       border-radius: 4px;
@@ -205,9 +205,18 @@
       visibility: visible;
     }
   
-    .card.custom-card {
-      background-color: lightblue !important; /* Change the background color */
-      border-color: navy !important; /* Change the border color */
-      color: navy !important; /* Change the font color */
-  }
-  
+    .btn.btn-dark {
+      color: #fff; /* Text color */
+      background-color: #0e61aa; /* Background color */
+      border-color: #0e61aa; /* Border color */
+      padding: 10px 20px; /* Padding */
+      font-size: 16px; /* Font size */
+      border-radius: 10px; /* Border radius */
+      text-decoration: none; /* Remove default text underline */
+    }
+    
+    .btn.btn-dark:hover {
+      background-color: #0d4b85; /* Darker background color on hover */
+      border-color: #0d4b85; /* Darker border color on hover */
+    }
+    
