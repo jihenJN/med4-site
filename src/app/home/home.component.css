@@ -1,13 +1,13 @@
 .section-home {
-  /* Set background image for section 1 */
-  background-image: url('/assets/home-background.png');
-  
+
+  background: linear-gradient(to bottom right, rgb(22,97,159,1), rgba(84, 170, 169,0.8),rgb(84,170,169,0.5), rgba(84, 170, 169,0.8),rgb(22,97,159,0.7),rgb(22,97,159,1)), url('/assets/medicaldesktop.jpg');
+ 
   /* Specify background properties */
   background-size: cover; /* Cover the entire section */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Do not repeat the image */
   /* Responsive height and width */
-  height: 50vh; /* 50% of the viewport height */
+  height: 70vh; /* 50% of the viewport height */
   width: 100%; /* 100% of the container's width */
   display: flex;
   flex-direction: column;

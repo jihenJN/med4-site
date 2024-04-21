@@ -5,7 +5,10 @@
     
     transition: all 0.5s;
     z-index: 997;
-    height: 90px;
+    height: 100px;
+    background-color: #fff;
+    opacity: 0.2;
+    
     
   }
   
@@ -64,6 +67,7 @@
   
     .navbar {
       padding: 0;
+      opacity: 1;
     }
   
     .navbar ul {
@@ -72,6 +76,7 @@
       display: flex;
       list-style: none;
       align-items: center;
+      
     }
   
     .navbar li {
@@ -98,7 +103,7 @@
       font-family: var(--font-secondary);
       font-size: 16px;
       font-weight: 600;
-      color: #939090;
+      color: #fff;
       white-space: nowrap;
       transition: 0.3s;
       position: relative;
@@ -137,7 +142,7 @@
     .navbar .active,
     .navbar .active:focus,
     .navbar li:hover>a {
-      color: #554b4b;
+      color: #0a5291;
       text-decoration:underline;
       text-underline-offset: 10px; /* Adjust the offset as needed */
       text-decoration-thickness: 3px; /* Adjust the thickness as needed */
