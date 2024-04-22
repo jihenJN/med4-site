@@ -1,0 +1,65 @@
+
+ 
+.section-services {
+  
+    background-color: #F0FFFF;
+    height: 90vh; /* 50% of the viewport height */
+    display: flex;
+    width: 100%; 
+    flex-direction: column;
+    justify-content:center; /* Vertically center */
+    align-items: center;
+    padding: 20px;
+    
+  }
+
+  .big-title-services{
+    text-align: center;
+    color:#1a3657;
+    margin-bottom: 20px;
+  }
+
+  .text-style-services{
+    font-size: small;
+    text-align:center; 
+    color:#1a3657;
+  }
+
+
+  .col-6 .custom-card {
+    border: none; /* Remove default border */
+    border-radius: 20px; /* Add rounded corners */
+    background-color: #daedfe;
+    padding:10px;
+    height: 220px;
+    width:440px;
+    margin-bottom:20px;
+}
+
+.col-12 .custom-card {
+  border: none; /* Remove default border */
+  border-radius: 20px; /* Add rounded corners */
+  background-color: #daedfe;
+  height: 220px;
+  width:900px;
+  padding:10px;
+  background: linear-gradient( to left, rgb(16, 97, 172, 1),rgb(14,96,171,1),rgba(87, 182, 177, 1),rgba(87, 182, 177, 1));
+}
+
+.custom-card .card-body {
+    padding: 10px; /* Increase padding for better spacing */
+}
+
+.custom-card .card-title {
+    color:#feffff;
+    font-size: 18px; /* Increase title font size */
+    font-weight: bold; /* Make title bold */
+    margin-bottom: 20px; /* Add bottom margin to title */
+    text-align:center;
+  }
+
+.custom-card .card-text {
+  font-size: 16px;
+  text-align:center; 
+  color:#feffff;
+}

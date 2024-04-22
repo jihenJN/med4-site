@@ -8,10 +8,11 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ValueComponent } from './value/value.component';
+import { ServicesComponent } from './services/services.component';
 
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent, NavbarComponent, HomeComponent, AboutComponent, ValueComponent],
+  declarations: [AppComponent, FooterComponent, NavbarComponent, HomeComponent, AboutComponent, ValueComponent, ServicesComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
