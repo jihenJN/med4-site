@@ -7,6 +7,18 @@
   align-items: center; /* Horizontally center */
   justify-content: center;
   
+ 
+}
+
+.section-why {
+  
+  background-color: #f1feff;
+  height: 80vh; /* 50% of the viewport height */
+  display: flex;
+  width: 100%; 
+  flex-direction: column;
+  justify-content:center; /* Vertically center */
+  align-items: center;
   
 }
 
@@ -56,20 +68,19 @@
      margin-bottom: 20px;
   }
   
-  .section-why {
+ 
   
-    background-color: #EBEBEB;
-    height: 80vh; /* 50% of the viewport height */
-    width: 100%; /* 100% of the container's width */
-    display: flex;
-    flex-direction: column;
-    justify-content:center; /* Vertically center */
-    align-items: center; /* Horizontally center */
-    text-align: center; /* Center text inside */
-    
+  .big-title-why{
+    text-align: center;
+    color:#1a3657;
+    margin-bottom: 20px;
   }
-  
 
+  .text-style-why{
+    font-size: small;
+    text-align:center; 
+    color:#1a3657;
+  }
   .big-title-about{
     text-align:left; 
     color:#1a3657;
@@ -81,3 +92,45 @@
     text-align:left; 
     color:#1a3657;
   }
+
+  .custom-card {
+    border: none; /* Remove default border */
+    border-radius: 20px; /* Add rounded corners */
+    background-color: #daedfe;
+    height:230px;
+    width:350px;
+    padding:10px;
+}
+
+.custom-card .card-body {
+    padding: 20px; /* Increase padding for better spacing */
+}
+
+.custom-card .card-title {
+    color:#1a3657;
+    font-size: 14px; /* Increase title font size */
+    font-weight: bold; /* Make title bold */
+    margin-bottom: 20px; /* Add bottom margin to title */
+    text-align:center;
+  }
+
+.custom-card .card-text {
+  font-size: small;
+  text-align:center; 
+  color:#1a3657;
+}
+
+
+.top-left-image {
+  position: absolute;
+  top: -25px; 
+  left: 25px;
+  border-radius: 50%; 
+  height:60px ;
+  width:60px ;
+  background: linear-gradient(to bottom, rgb(22,105,172,1), rgb(22,105,172,0.8),rgb(87,180,177,0.5));
+ padding: 10px;
+}
+
+
+
