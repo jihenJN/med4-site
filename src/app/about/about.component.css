@@ -22,6 +22,20 @@
   
 }
 
+.section-extend{
+  
+  background-color: #f1feff;
+  height: 10vh; /* 50% of the viewport height */
+  display: flex;
+  width: 100%; 
+  flex-direction: column;
+  justify-content:center; /* Vertically center */
+  align-items: center;
+  
+}
+
+
+
 .image-frame {
   position: relative; /* Set container as relative positioning */
   border-radius: 10px; /* Rounded corners */
