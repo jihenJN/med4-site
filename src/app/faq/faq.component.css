@@ -1,0 +1,41 @@
+.section-FAQ {
+  
+    background-color: #F0FFFF;
+    height: 80vh; /* 50% of the viewport height */
+    display: flex;
+    width: 100%; 
+    flex-direction: column;
+    justify-content:center; /* Vertically center */
+    align-items: center;
+    
+  }
+
+.big-title-FAQ{
+    text-align: center;
+    color:#163659;
+    margin-bottom: 20px;
+  }
+
+  .text-style-FAQ{
+    font-size: small;
+    text-align:center; 
+    color:#163659;
+  }
+
+  .section-extend{
+  
+    background-color: #ffffff;
+    height: 10vh; /* 50% of the viewport height */
+    display: flex;
+    width: 100%; 
+    flex-direction: column;
+    justify-content:center; /* Vertically center */
+    align-items: center;
+    
+  }
+
+  .plus-icon {
+    float: right;
+  }
+  
+ 

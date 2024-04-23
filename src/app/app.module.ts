@@ -12,10 +12,11 @@ import { ServicesComponent } from './services/services.component';
 import { PartnersComponent } from './partners/partners.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { BlogsComponent } from './blogs/blogs.component';
+import { FAQComponent } from './faq/faq.component';
 
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent, NavbarComponent, HomeComponent, AboutComponent, ValueComponent, ServicesComponent, PartnersComponent, PricingComponent, BlogsComponent],
+  declarations: [AppComponent, FooterComponent, NavbarComponent, HomeComponent, AboutComponent, ValueComponent, ServicesComponent, PartnersComponent, PricingComponent, BlogsComponent, FAQComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
