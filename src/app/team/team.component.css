@@ -1,0 +1,51 @@
+.section-team {
+  
+    background-color: #F0FFFF;
+    height: 80vh; /* 50% of the viewport height */
+    display: flex;
+    width: 100%; 
+    flex-direction: column;
+    justify-content:center; /* Vertically center */
+    align-items: center;
+    padding: 40px;
+
+  }
+
+.big-title-team{
+    text-align: center;
+    color:#163659;
+    margin-bottom: 40px;
+    
+  }
+
+  .text-style-team{
+    font-size: small;
+    text-align:center; 
+    color:#163659;
+  }
+
+
+  .image-frame {
+    position: relative; /* Set container as relative positioning */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    width: 100%; /* Ensure container takes full width */
+    height: 100%; /* Ensure container takes full height */
+  }
+  
+  .image-frame img {
+    position: absolute; /* Position image absolutely within container */
+    top: 0; /* Align image to the top */
+    left: 0; /* Align image to the left */
+    width: 100%; /* Ensure image covers entire width of container */
+    height: 100%; /* Ensure image covers entire height of container */
+    object-fit: cover; /* Cover the entire container while maintaining aspect ratio */
+  }
+  
+  .col-12 img {
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  

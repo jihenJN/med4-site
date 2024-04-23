@@ -13,10 +13,11 @@ import { PartnersComponent } from './partners/partners.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { FAQComponent } from './faq/faq.component';
+import { TeamComponent } from './team/team.component';
 
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent, NavbarComponent, HomeComponent, AboutComponent, ValueComponent, ServicesComponent, PartnersComponent, PricingComponent, BlogsComponent, FAQComponent],
+  declarations: [AppComponent, FooterComponent, NavbarComponent, HomeComponent, AboutComponent, ValueComponent, ServicesComponent, PartnersComponent, PricingComponent, BlogsComponent, FAQComponent, TeamComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
