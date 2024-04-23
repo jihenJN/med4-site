@@ -1,0 +1,14 @@
+.copyright{
+background: linear-gradient(to bottom right, rgb(22,97,159,1), rgba(84, 170, 169,0.8),rgb(22,97,159,1),rgb(22,97,159,1));
+/* Responsive height and width */
+height: 10vh; /* 50% of the viewport height */
+width: 100%; /* 100% of the container's width */
+display: flex;
+flex-direction: column;
+justify-content: center; /* Vertically center */
+align-items: center; /* Horizontally center */
+text-align: center; /* Center text inside */
+box-shadow: 0px 0px 10px 0px rgba(157, 151, 151, 0.5); /* Shadow effect */
+padding: 20px; /* Optional padding */
+
+}

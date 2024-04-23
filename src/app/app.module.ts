@@ -11,10 +11,11 @@ import { ValueComponent } from './value/value.component';
 import { ServicesComponent } from './services/services.component';
 import { PartnersComponent } from './partners/partners.component';
 import { PricingComponent } from './pricing/pricing.component';
+import { BlogsComponent } from './blogs/blogs.component';
 
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent, NavbarComponent, HomeComponent, AboutComponent, ValueComponent, ServicesComponent, PartnersComponent, PricingComponent],
+  declarations: [AppComponent, FooterComponent, NavbarComponent, HomeComponent, AboutComponent, ValueComponent, ServicesComponent, PartnersComponent, PricingComponent, BlogsComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
