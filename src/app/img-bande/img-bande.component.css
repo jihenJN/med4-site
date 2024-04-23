@@ -1,0 +1,41 @@
+.section-band {
+    /* Responsive height and width */
+    height: 50vh; /* 50% of the viewport height */
+    width: 100%; /* 100% of the container's width */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center */
+    justify-content: center;
+    background: linear-gradient( to left, rgb(181, 208, 233,0.8),rgb(232, 234, 237,0.2)), url('/assets/phone-bg.png');
+    align-items:center;
+    
+   
+  }
+
+
+  
+  .text-style-band{
+    font-size: 17px;
+    text-align:center;
+    color:#163659;
+    margin-bottom: 5px;
+  }
+
+
+  .btn.btn-dark {
+    color: #fff; /* Text color */
+    background: linear-gradient( to top, rgb(69,158,176),rgb(22,97,159,0.7),rgb(22,97,159,0.3));
+    background-color: #459eb0; /* Background color */
+    border-color: #599eac; /* Border color */
+    border-width: 3.5px;
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    border-radius: 10px; /* Border radius */
+    text-decoration: none; /* Remove default text underline */
+  }
+  
+  .btn.btn-dark:hover {
+    background-color: #22898f; /* Darker background color on hover */
+    border-color: #22898f; /* Darker border color on hover */
+  }
+  

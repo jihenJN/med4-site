@@ -14,10 +14,11 @@ import { PricingComponent } from './pricing/pricing.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { FAQComponent } from './faq/faq.component';
 import { TeamComponent } from './team/team.component';
+import { ImgBandeComponent } from './img-bande/img-bande.component';
 
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent, NavbarComponent, HomeComponent, AboutComponent, ValueComponent, ServicesComponent, PartnersComponent, PricingComponent, BlogsComponent, FAQComponent, TeamComponent],
+  declarations: [AppComponent, FooterComponent, NavbarComponent, HomeComponent, AboutComponent, ValueComponent, ServicesComponent, PartnersComponent, PricingComponent, BlogsComponent, FAQComponent, TeamComponent, ImgBandeComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
