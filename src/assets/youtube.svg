@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="31" viewBox="0 0 32 31">
+  <g id="Circle_Button_SIZE_MEDIUM_STATE_DEFAULT_STYLE_STYLE3_" data-name="Circle Button [SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE3]" transform="translate(0.228 0)">
+    <rect id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="32" height="31" rx="15.5" transform="translate(-0.228 0)" fill="#163659"/>
+    <g id="Icon_ICON_feather_youtube_SIZE_MEDIUM_STATE_DEFAULT_STYLE_STYLE3_" data-name="Icon [ICON=feather/youtube][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE3]" transform="translate(9.136 8.883)">
+      <rect id="Area_ICON:feather_youtube_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [ICON:feather/youtube][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="13" height="13" transform="translate(0.636 0.118)" fill="#fcfdff" opacity="0"/>
+      <g id="Icon" transform="translate(0 2.15)">
+        <path id="Soustraction_1" data-name="Soustraction 1" d="M-329.794-10357.8a39.169,39.169,0,0,1-5.136-.276,1.667,1.667,0,0,1-1.158-1.147,17.19,17.19,0,0,1-.276-3.182,17.227,17.227,0,0,1,.276-3.161,1.658,1.658,0,0,1,1.158-1.194,39.309,39.309,0,0,1,5.136-.275,43.032,43.032,0,0,1,5.139.252,1.658,1.658,0,0,1,1.158,1.194,17.246,17.246,0,0,1,.276,3.185,17.171,17.171,0,0,1-.276,3.135,1.658,1.658,0,0,1-1.158,1.194A39.2,39.2,0,0,1-329.794-10357.8Zm-1.343-6.56h0v3.905l3.434-1.951-3.434-1.954Z" transform="translate(336.364 10367.032)" fill="#fcfdff"/>
+      </g>
+    </g>
+  </g>
+</svg>
