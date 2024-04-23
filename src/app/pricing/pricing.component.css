@@ -1,0 +1,105 @@
+
+ 
+.section-pricing {
+  
+    background: linear-gradient(to bottom right, rgb(22,97,159,1), rgba(84, 170, 169,0.8),rgb(84,170,169,0.8), rgba(84, 170, 169,0.8),rgb(22,97,159,0.7),rgb(22,97,159,1));
+    height: 120vh; /* 50% of the viewport height */
+    display: flex;
+    width: 100%; 
+    flex-direction: column;
+    justify-content:center; /* Vertically center */
+    align-items: center;
+    padding: 20px;
+    
+  }
+
+  .big-title-pricing{
+    text-align: center;
+    color:#feffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+
+  .text-style-pricing{
+    font-size: small;
+    text-align:center; 
+    color:#feffff;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+.custom-card {
+    border: none; /* Remove default border */
+    border-radius: 20px; /* Add rounded corners */
+    background-color: #daedfe;
+    padding:20px;
+    height: 100%;
+    width:300px;
+    margin-bottom:20px;
+}
+
+
+  .custom-card .card-title {
+    color:#163659;
+    font-weight: bold; /* Make title bold */
+    margin-bottom: 20px; /* Add bottom margin to title */
+    text-align:center;
+  }
+
+
+
+  .btn.btn-dark {
+    color: #fff; /* Text color */
+    background-color: #0e61aa; /* Background color */
+    border-color: #0e61aa; /* Border color */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    border-radius: 10px; /* Border radius */
+    text-decoration: none; /* Remove default text underline */
+  }
+  
+  .btn.btn-outline-dark {
+    background-color: #fff; /* Text color */
+    color: #0e61aa; /* Background color */
+    border-color: #0e61aa; /* Border color */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    border-radius: 10px; /* Border radius */
+    text-decoration: none; /* Remove default text underline */
+  }
+
+  .btn.btn-dark:hover {
+    background-color: #0d4b85; /* Darker background color on hover */
+    border-color: #0d4b85; /* Darker border color on hover */
+  }
+ 
+
+  .btn.btn-outline-dark:hover {
+    color: #fff;
+    background-color: #0d4b85; /* Darker background color on hover */
+    border-color: #fff; /* Darker border color on hover */
+  }
+ 
+
+  .custom-card .card-body {
+    padding: 10px; /* Increase padding for better spacing */
+}
+
+  .custom-card .card-text {
+    font-size: 14px;
+    text-align:left; 
+    color:#163659;
+  }
+  
+  .custom-img {
+    width: 14px;
+    height: 14px;
+    margin: 5px;
+}
+
+
+.card-text li {
+  margin-bottom: 10px; /* Adjust this value to your desired interline spacing */
+}
