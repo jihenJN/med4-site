@@ -1,7 +1,7 @@
 .section-blog {
   
     background-color: #F0FFFF;
-    height: 160vh; /* 50% of the viewport height */
+    height: 150vh; /* 50% of the viewport height */
     display: flex;
     width: 100%; 
     flex-direction: column;
