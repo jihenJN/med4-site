@@ -1,0 +1,63 @@
+.section-blog {
+  
+    background-color: #F0FFFF;
+    height: 80vh; /* 50% of the viewport height */
+    display: flex;
+    width: 100%; 
+    flex-direction: column;
+    justify-content:center; /* Vertically center */
+    align-items: center;
+    padding: 40px;
+
+  }
+
+.big-title-blog{
+    text-align: center;
+    color:#163659;
+    margin-bottom: 40px;
+    
+  }
+
+  .text-style-blog{
+    font-size: small;
+    text-align:center; 
+    color:#163659;
+  }
+
+
+  /* Custom styles for the card component */
+
+/* Container styling */
+.custom-card {
+    
+    padding: 20px; /* Padding */
+    margin-bottom: 20px; /* Margin bottom */
+}
+
+/* Image styling */
+.shadowed-image {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a shadow effect */
+    border-radius: 10px; /* Border radius for rounded corners */
+    width: 100%; /* Ensure the image takes full width */
+    height: 230px;
+    width: 340px;
+}
+
+/* Text styling */
+.card-title {
+    font-size: 17px; /* Font size */
+    color: #1061AC; /* Text color */
+    margin-top: 10px; /* Margin top */
+}
+
+.card-text {
+    font-size: 15px; /* Font size */
+    color: #163659; /* Text color */
+    margin-top: 20px; /* Margin top */
+}
+
+/* Additional styling for last updated text */
+.text-muted {
+    font-size: 13px; /* Font size */
+    color: #57B6B1; /* Text color */
+}
