@@ -1,16 +1,18 @@
 .section-blog {
   
     background-color: #F0FFFF;
-    height: 80vh; /* 50% of the viewport height */
+    height: 160vh; /* 50% of the viewport height */
     display: flex;
     width: 100%; 
     flex-direction: column;
     justify-content:center; /* Vertically center */
     align-items: center;
-    padding: 40px;
+    padding: 20px;
+    
 
   }
 
+  
 .big-title-blog{
     text-align: center;
     color:#163659;
@@ -39,8 +41,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a shadow effect */
     border-radius: 10px; /* Border radius for rounded corners */
     width: 100%; /* Ensure the image takes full width */
-    height: 230px;
-    width: 340px;
+    height: 150px;
+    width: 250px;
 }
 
 /* Text styling */
