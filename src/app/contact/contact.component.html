@@ -1,0 +1,36 @@
+<ng-template #content let-modal>
+    <div class="modal-header">
+
+        <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+    </div>
+    <div class="modal-body">
+        <form>
+            <div class="mb-3">
+                <label for="nomPrenom">Nom & Prénom</label>
+                <div class="input-group">
+                    <input id="nomPrenom" class="form-control" placeholder="Nom & Prénom" />
+
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="email">E-mail</label>
+                <div class="input-group">
+                    <input id="email" class="form-control" placeholder="E-mail" />
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="message">Message</label>
+                <div class="input-group">
+                    <textarea id="message" class="form-control" placeholder="message"></textarea>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Save</button>
+    </div>
+</ng-template>
+
+<button class="btn btn-lg btn-outline-primary" (click)="open(content)">Launch demo modal</button>
+
+<hr />

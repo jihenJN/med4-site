@@ -17,6 +17,8 @@ import { TeamComponent } from './team/team.component';
 import { ImgBandeComponent } from './img-bande/img-bande.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
+import { ContactComponent } from './contact/contact.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,6 +34,7 @@ import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
     FAQComponent,
     TeamComponent,
     ImgBandeComponent,
+    ContactComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, NgbAccordionModule],
   providers: [],
