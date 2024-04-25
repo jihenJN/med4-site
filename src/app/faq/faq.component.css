@@ -38,6 +38,7 @@
     --bs-accordion-border-bottom-width:1px;
     --bs-accordion-btn-icon: url(/assets/icons-plus.png);
     --bs-accordion-btn-active-icon:url(/assets/icons-minus.png);
+    --bs-accordion-border-radius:0px;
     
 }
 
