@@ -15,9 +15,6 @@ import { BlogsComponent } from './blogs/blogs.component';
 import { FAQComponent } from './faq/faq.component';
 import { TeamComponent } from './team/team.component';
 import { ImgBandeComponent } from './img-bande/img-bande.component';
-import { ContactFormComponent } from './contact-form/contact-form.component';
-import { ContactModaleComponent } from './contact-modale/contact-modale.component';
-import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -34,9 +31,6 @@ import { ContactComponent } from './contact/contact.component';
     FAQComponent,
     TeamComponent,
     ImgBandeComponent,
-    ContactFormComponent,
-    ContactModaleComponent,
-    ContactComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
