@@ -1,41 +1,54 @@
-.section-FAQ {
+.section-faq {
   
-    background-color: #F0FFFF;
-    height: 80vh; /* 50% of the viewport height */
-    display: flex;
-    width: 100%; 
-    flex-direction: column;
-    justify-content:center; /* Vertically center */
-    align-items: center;
-    
-  }
-
-.big-title-FAQ{
-    text-align: center;
-    color:#163659;
-    margin-bottom: 20px;
-  }
-
-  .text-style-FAQ{
-    font-size: small;
-    text-align:center; 
-    color:#163659;
-  }
-
-  .section-extend{
-  
-    background-color: #ffffff;
-    height: 10vh; /* 50% of the viewport height */
-    display: flex;
-    width: 100%; 
-    flex-direction: column;
-    justify-content:center; /* Vertically center */
-    align-items: center;
-    
-  }
-
-  .plus-icon {
-    float: right;
-  }
-  
+  background-color: #F0FFFF;
+  height: 70vh; /* 50% of the viewport height */
+  display: flex;
+  width: 100%; 
+  flex-direction: column;
+  justify-content:center; /* Vertically center */
  
+  
+}
+
+.big-title-faq{
+  text-align: center;
+  color:#1a3657;
+  margin-bottom: 20px;
+}
+
+.text-style-faq{
+  font-size: small;
+  text-align:center; 
+  color:#1a3657;
+}
+
+
+
+.row {
+  display: flex;
+  justify-content:center; 
+}
+
+
+  /* Style the background color of the accordion items */
+  .custom-accordion .card {
+    background-color: #bd3838; /* Set the background color */
+    border: 1px solid #ddd; /* Add a border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    margin-bottom: 10px; /* Add some margin between accordion items */
+}
+
+/* Style the background color of the accordion headers (optional) */
+.custom-accordion .card-header {
+    background-color: #b92f2f; /* Set the background color of the headers */
+}
+
+/* Style the text color of the accordion headers (optional) */
+.custom-accordion .card-header button {
+    color: #333; /* Set the color of the header text */
+}
+
+/* Style the background color of the accordion bodies (optional) */
+.custom-accordion .card-body {
+    background-color: #da4141; /* Set the background color of the bodies */
+}

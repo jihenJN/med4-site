@@ -20,6 +20,13 @@
     
   }
 
+  .row {
+    display: flex;
+    justify-content:center; 
+  }
+  
+  
+
   .text-style-blog{
     font-size: small;
     text-align:center; 
