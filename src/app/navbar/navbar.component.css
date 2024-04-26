@@ -6,8 +6,8 @@
     transition: all 0.5s;
     z-index: 997;
     height: 100px;
-    background-color: #feffff;
-    background-color: rgba(255, 255, 255, 0.2); /* Use RGBA for background color */
+    
+    background-color: rgba(16, 97, 172, 0.5); /* Use RGBA for background color */
     
     
   }

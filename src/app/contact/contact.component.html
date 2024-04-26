@@ -1,3 +1,50 @@
+<div class="section-contact ">
+    <div class="row">
+        <div class="col-5">
+            <h1 class="big-title-contact" style="margin-bottom:10px;"> Contactez nous</h1>
+            <p class="text-style-contact">
+                Chez Med4, nous rendons la communication avec nous aussi facile et accessible que possible. Que vous
+                ayez des questions, besoin d'informations supplémentaires, ou que vous souhaitiez obtenir une soumission
+                personnalisée, notre équipe est prête à vous assister.
+            </p>
+
+            <div class="col-12" style="margin-bottom:10px;">
+                <div class="row">
+                    <ul style="margin-left: -10px; margin-bottom: 10px;">
+                        <li class=" text-style-footer"><img src="/assets/phone-white.svg" class="custom-img"
+                                alt="Icon ok">
+                            1 888-MED4
+                        </li>
+                        <li class="text-style-footer"><img src="/assets/email-white.svg" class="custom-img"
+                                alt="Icon ok">
+                            contact@medilink.com
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+            <div class="col-12">
+                <a href="#" class="btn btn-dark" role="button" data-bs-toggle="button" (click)="open(content)">
+                    envoyez message
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
 <ng-template #content let-modal>
     <div class="modal-header">
 
@@ -30,7 +77,3 @@
         <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Save</button>
     </div>
 </ng-template>
-
-<button class="btn btn-lg btn-outline-primary" (click)="open(content)">Launch demo modal</button>
-
-<hr />

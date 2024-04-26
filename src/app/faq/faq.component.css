@@ -6,7 +6,7 @@
   width: 100%; 
   flex-direction: column;
   justify-content:center; /* Vertically center */
- 
+ margin-bottom: 40px;
   
 }
 

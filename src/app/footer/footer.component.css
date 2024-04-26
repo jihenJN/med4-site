@@ -1,6 +1,6 @@
 .section-footer {
   
-    background-color: #F6F8FE;
+    background-color: #F0FFFF;
     height: 60vh;
     display: flex;
     width: 100%; 
@@ -83,7 +83,7 @@ ul {
   height: 30px;
 }
 .copyright{
-background: linear-gradient(to bottom right, rgb(22,97,159,1), rgba(84, 170, 169,0.8),rgb(22,97,159,1),rgb(22,97,159,1));
+background: linear-gradient(to right,#00509D,#49A9A1,#00509D);
 /* Responsive height and width */
 height: 10vh; /* 50% of the viewport height */
 width: 100%; /* 100% of the container's width */
